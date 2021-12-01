@@ -37,8 +37,9 @@ const formInfo= require("./formInfoRoute");
 
         app.use("/Info",formInfo);
 
-        app.listen(process.env.Port,()=>{
-            console.log("server connected Successfully");
+        const port =process.env.PORT||3001
+        app.listen(port,()=>{
+        console.log("Server running in port 3001")
         })
                 
             } catch (error) {
