@@ -1,7 +1,6 @@
 {
   "name": "portfolio-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,14 @@
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.2.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AKRaavanan/Portfolio-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AKRaavanan/Portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/AKRaavanan/Portfolio-backend#readme",
+  "description": ""
 }
