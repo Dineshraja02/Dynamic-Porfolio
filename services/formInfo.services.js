@@ -19,17 +19,7 @@ const formInfoService = {
         } catch (error) {
            console.log(error);
         }
-    },
-    async delete(req,res){
-        try {
-            const data = await db.portfolio.deleteOne({userId:req.user.userId});
-            res.status(200).send(data);
-        } catch (error) {
-           console.log(error);
-        }
     } 
 }
-
-
 
 module.exports = formInfoService;
